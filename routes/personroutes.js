@@ -72,7 +72,7 @@ router.put('/:id', async (req,res)=>{
 
     }
 })
-
+//message for testing only
 router.delete('/:id',async (req,res)=>{
     try{
         const personId = req.params.id;
