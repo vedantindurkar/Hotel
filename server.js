@@ -13,7 +13,7 @@ const menuItem= require('./models/menuItem');
 //get can only give you response ntg else
 
 app.get("/", function (req, res) {
-  res.send("Welcome to  Vedant");
+  res.send("Welcome to My Website!Thank you for visiting.");
 });
 
 
